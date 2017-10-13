@@ -78,18 +78,18 @@ public class TrabajoPractico5 {
         boton1.setBounds(200, 200, 200, 50);
         boton1.setText("Cerrar Ventanas");
                     
-        boton1.addActionListener(new ActionListener() {
+      /*  boton1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println("Click en boton");
                 try {
-                    ventanaInterna.setClosed(true);
-                    ventanaInterna2.setClosed(true);
+                    //ventanaInterna.setClosed(true);
+                    //ventanaInterna2.setClosed(true);
                 } catch (PropertyVetoException ex) {
                     System.out.println("Excepcion");
                 }
             }
-        });    
+        });   
         
         panel.add(boton1);
         boton1.setVisible(true);
@@ -108,6 +108,6 @@ public class TrabajoPractico5 {
         
         panel.add(boton2);
         boton2.setVisible(true);
-        
+        */
     }
 }
