@@ -60,7 +60,23 @@ public class TrabajoPractico1 {
      * Crear un arreglo de numeros enteros del 1 al 5, recorrerlos y mostralos de las 2 formas
      */
     public void ejercicio3() {
+        int[] numero = new int[5];
+        numero[0]=5;
+        numero[1]=200;
+        numero[2]=4;
+        numero[3]=456;
+        numero[4]=98;
+         System.out.println("Iterando Numeros forma 1");
+        for (int i = 0; i < numero.length; i++) {
+            int numeros = numero[i];
+            System.out.println(numeros);
+        }
+        System.out.println("\n");
         
+        System.out.println("Iterando Numeros forma 2");
+        for (int numeros : numero) {
+            System.out.println(numeros);
+        }
     }
     
     /**
