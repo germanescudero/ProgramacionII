@@ -78,7 +78,14 @@ public class TrabajoPractico3 {
         pedido1.setFecha(new Date());
         pedido1.setDetalles(listaDetalles);
         
-        return pedido1;
+        return pedido1;        
+    }
+    
+    /**
+     * LLamar al metodo del ejercicio 2 para crear un pedido completo
+     * y agregar un nuevo detalle que incluya una mercaderia nueva
+     */
+    public void ejercicio3() {
         
     }
 }
