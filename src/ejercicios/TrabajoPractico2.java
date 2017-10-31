@@ -77,4 +77,8 @@ public class TrabajoPractico2 {
             System.out.println("Exception "+ex);
         }
     }
+    
+    public void ejercicio7() throws MiException{
+        throw new MiException("soy la exception");
+    }
 }
